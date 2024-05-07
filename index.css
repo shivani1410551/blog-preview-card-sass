@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,600;0,800;1,600;1,800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a,
+img,
+span,
+button {
+  display: inline-block;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(47deg, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  padding: 1rem;
+}
+body .container {
+  background-color: hsl(0deg, 0%, 100%);
+  box-shadow: 10px 10px 0 black;
+  border-radius: 1rem;
+  border: 1px solid black;
+  padding: 1rem;
+  max-width: 500px;
+}
+body .container img {
+  width: 100%;
+  border-radius: 10px;
+}
+body .container a {
+  background-color: hsl(47deg, 88%, 63%);
+  color: hsl(0deg, 0%, 7%);
+  margin: 1rem 0;
+  padding: 16px;
+  font-weight: 800;
+  border-radius: 10px;
+}
+body .container p {
+  margin-bottom: 10px;
+}
+body .container p:nth-child(4) {
+  color: hsl(0deg, 0%, 50%);
+  line-height: 1.5rem;
+}
+body .container h1 {
+  white-space: nowrap;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+body .container h1:hover {
+  color: hsl(47deg, 88%, 63%);
+}
+body .container .footer {
+  display: flex;
+  align-items: center;
+  justify-content: inherit;
+}
+body .container .footer h2 {
+  padding-left: 20px;
+  font-size: 22px;
+}
+
+@media screen and (min-width: 425px) {
+  body .container {
+    width: 320px;
+    max-width: 500px;
+  }
+  body .container p:nth-child(4) {
+    line-height: 1.2rem;
+  }
+  body .container h1 {
+    font-size: 1.2rem;
+  }
+  body .container .footer h2 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 375px) {
+  body {
+    padding: 1rem;
+  }
+  body .container {
+    max-width: 330px;
+  }
+  body .container a {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+  }
+  body .container h1 {
+    font-size: 1.2rem;
+  }
+  body .container p {
+    font-size: 16px;
+    line-height: 0.8rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  body .container {
+    width: 320px;
+    max-width: 500px;
+  }
+  body .container p:nth-child(4) {
+    line-height: 1.2rem;
+  }
+  body .container h1 {
+    font-size: 1.2rem;
+  }
+  body .container .footer h2 {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=index.css.map */
